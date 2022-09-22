@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-top: 4rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+	height: 4rem;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
+    padding: 1.3rem 0;
+
+}
+
+.nav-container .link-logo {
+    padding: 1.4rem 0;
+}
+
+.logo-dropbox {
+    vertical-align: middle;
+}
+
+.lista1 li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem;
+}
+
+.lista2 li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.container-inizia {
+    background-color: rgba(0,97,255,255);
+    padding: 0.4rem 0rem;
+}
+
+.container-inizia .link-inizia {
+    color: white;
+    padding: 1.3rem 1rem;
+}
+
+.nav-container a:hover{
+    border-bottom: 2px solid black;
+}
+
+/* main */
+.container-title {
+    background-color: rgba(180,208,231,255);
+}
+
+
+
