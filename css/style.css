@@ -22,6 +22,10 @@ img {
     margin: auto;
 }
 
+.font-size {
+    font-size: small;
+}
+
 /* header */
 
 header {
@@ -48,12 +52,13 @@ header {
 }
 
 .nav-container .link-logo {
-    padding: 1.33rem 0;
+    padding: 1.4rem 0;
 }
 
 .logo-dropbox {
     vertical-align: middle;
 }
+
 
 .lista1 li {
     display: inline-block;
@@ -83,13 +88,29 @@ header {
 /* main */
 .container1 {
     background-color: rgba(180,208,231,255);
+    
 }
 
 .title {
-    font-size: 4.3rem;
+    font-size: 4.2rem;
     padding-top: 3rem;
     padding-bottom: 1.7rem;
 }
+
+.container-jumbo {
+    float: right;
+    width: 39rem;
+}
+
+.sub-title {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sub-title p {
+    margin-bottom: 2rem;
+}
+
 
 .first-container .bnt-prova-gratuita {
     background-color: rgba(0,97,255,255);
@@ -98,26 +119,12 @@ header {
     padding: 0.7rem 1rem;
 }
 
-.sub-title {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.link-prova-gratuita {
+    margin-bottom: 2rem;
 }
+
 .bnt-arrow {
-    margin-top: 1.5rem;
-    color: black;
+     color: black;
     font-size: 2.5rem;
-}
-
-.img-container1 {
-    height: 3rem;
-    width: 100%;
-    margin-top: -19rem;
-    text-align: right;
-    padding-right: 10rem;
-}
-
-.img-title {
-    width: 40rem;
 }
 
