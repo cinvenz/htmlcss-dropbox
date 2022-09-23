@@ -17,13 +17,18 @@ img {
 }
 
 /* general */
-.container {
-    max-width: 1000px;
+.container-max {
+    max-width: 900px;
+    margin: auto;
+}
+
+.container-min {
+    max-width: 800px;
     margin: auto;
 }
 
 .font-size {
-    font-size: small;
+    font-size: 0.8rem;
 }
 
 /* header */
@@ -85,21 +90,23 @@ header {
     border-bottom: 2px solid black;
 }
 
-/* main */
+/* main */ 
+/* container1 */
 .container1 {
     background-color: rgba(180,208,231,255);
     
 }
 
 .title {
-    font-size: 4.2rem;
+    font-size: 3.7rem;
     padding-top: 3rem;
     padding-bottom: 1.7rem;
 }
 
 .container-jumbo {
     float: right;
-    width: 39rem;
+    width: 40rem;
+    /* margin-right: 3rem; */
 }
 
 .sub-title {
@@ -128,3 +135,28 @@ header {
     font-size: 2.5rem;
 }
 
+.fa-arrow-down{
+    padding-bottom: .9rem;
+}
+
+/* container2 */
+.container2 {
+    margin-top: 7rem;
+}
+
+.title2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.inp-1, .inp-2 {
+    display: inline-block;
+    margin-right: 2rem;
+    
+}
+
+.inp-mensile, .inp-annuale {
+    vertical-align: middle;
+    margin-right: 0.2rem;
+    border: 0.5rem solid blue;
+}
