@@ -106,7 +106,6 @@ header {
 .container-jumbo {
     float: right;
     width: 40rem;
-    /* margin-right: 3rem; */
 }
 
 .sub-title {
@@ -154,16 +153,42 @@ form {
     margin-bottom: 2.5rem;
 }
 
-.inp-1, .inp-2 {
-    display: inline-block;
-    margin-right: 2rem;
-    
+
+
+input[type="radio"] {
+    display: none;
 }
 
-.inp-mensile, .inp-annuale {
-    vertical-align: middle;
+label {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+label span {
+    display: inline-flex;
+    align-items: center;
+   
+    border-radius: 31px;
+    transition: .25s ease;
+}
+
+label span:before{
+    content: "";
+    background-color: #fff;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
     margin-right: 0.2rem;
-    border: 0.5rem solid blue;
+    transition: .25s ease;
+    box-shadow:  inset 0 0 0 2px rgba(205,205,208,255);
+}
+
+input[type="radio"]:checked + span:before{
+    box-shadow: inset 0 0 0 5px rgba(0,97,255,255);
+}
+
+.inp-radio-mensile {
+    margin-right: 3rem;
 }
 
 .colonne {
@@ -174,41 +199,23 @@ form {
 .colonna1 {
     width: calc(100% / 3);
     flex: 1 1 255px;
-    border: 1px solid gray;
+    border: 1px solid rgba(212,212,215,255);
 }
 
 .contenuto-colonna1 {
     padding: 0 1.5rem;
 }
 
-
-.colonna2 {
-    width: calc(100 / 3);
-    flex: 1 1 255px;
-    border: 1px solid gray;
-}
-
-.colonna3 {
-    width: calc(100 / 3);
-    flex: 1 1 255px;
-    border: 1px solid gray;
-}
-
 .nome-colonna {
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(212,212,215,255);
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 /* scritte style colonne */
 .colonna1 li  {
-    list-style: none;
-}
-
-.colonna2 li  {
-    list-style: none;
-}
-
-.colonna3 li  {
     list-style: none;
 }
 

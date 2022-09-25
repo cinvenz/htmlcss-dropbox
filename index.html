@@ -62,16 +62,20 @@
         <section class="container2 font-size">
             <div class="container-min second-container">
                 <h2 class="title2">Trova il piano buisness che fa per te</h2>
-                <form class="form" action="">
-                    <div class="inp-1">
-                        <input class="inp-mensile" type="radio" name="mensile" value="mensile"/>Fatturazione mensile
-                        <label for="decimal"></label>
-                    </div>
-                    <div class="inp-2">
-                        <input class="inp-annuale" type="radio" name="mensile" value="annuale"/>Fatturazione annuale
-                        <label for="decimal"></label>
-                    </div>
-                </form>
+
+                <div class="form">
+                    <form action="">
+                        <label class="inp-radio-mensile">
+                            <input type="radio" id="html" name="radio" />
+                            <span>Fatturazione Mensile</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="css" name="radio" checked/>
+                            <span>Fatturazione annuale</span>
+                        </label>
+                        
+                    </form>
+                </div>
 
                 <div class="colonne">
                     <!-- prima colonna -->
