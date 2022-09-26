@@ -395,9 +395,97 @@ input[type="radio"]:checked + span:before{
     flex-wrap: wrap;
     flex: 1 1 255px;
     gap: 2rem;
+    margin-bottom: 7rem;
 }
 
 .card {
     
     width: calc(100% / 3 - 1.4rem);
+}
+
+.container4 a {
+    color: blue;
+}
+
+/* container 5 sponsor */
+.container5 {
+    display: flex;
+}
+
+.sponsor-left {
+    max-width: 416px;
+    display: flex;
+    flex: 1 1 100px;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 13rem;
+}
+
+.scrollbar {
+    max-width: 517px;
+    background-color: rgba(245,245,245,255);
+    padding: 2.5rem 2.5rem;
+    height:416px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.designit {
+    background-color: rgba(162,211,155,255);
+    border: 10px solid rgba(209,233,205,255);
+}
+
+.arizona {
+    background-color: rgba(97,8,43,255);
+}
+
+.florida {
+    background-color: rgba(0,145,205,255);
+}
+
+.topps {
+    background-color: rgba(255,28,28,255);
+}
+
+.bicycle {
+    background-color: rgba(213,0,31,255);
+}
+
+.hearst {
+    background-color: rgba(180,208,231,255);
+}
+
+.planet {
+    background-color: rgba(13,36,129,255);
+}
+
+.channel {
+    background-color: rgba(255,216,48,255);
+}
+
+.sponsor-left img {
+    width: 8rem;
+    filter: invert(1);
+}
+
+.scrollbar img {
+    width: 14rem;
+    margin-bottom: 2.5rem;
+}
+
+.trattino2 {
+    width: 5.5rem;
+    height: 0.5rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2.5rem;
+}
+
+.scrollbar p {
+    margin-bottom: 2.5rem;
 }
