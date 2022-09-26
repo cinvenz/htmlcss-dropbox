@@ -411,6 +411,8 @@ input[type="radio"]:checked + span:before{
 .container5 {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgba(189,213,233,255);
+    margin-bottom: 7rem;
 }
 
 .sponsor-left {
@@ -494,25 +496,98 @@ input[type="radio"]:checked + span:before{
 .under-sponsor {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgba(189,213,233,255);
+    
     padding: 5.5rem 0;
-    /* gap: 5rem; */
 }
 
 .under-sponsor h2 {
     color: rgba(94,0,38,255);
-    width: 30%;
+    width: 50%;
     padding-top: 1rem;
     
 }
 
 .under-sponsor a {
-    width: 70%;
+    width: 50%;
     background-color: white;
     color: black;
     text-decoration: none;
     padding: 0.7rem 1rem;
+}
+
+/* container 6 faq hover */
+.container6 {
+    margin-bottom: 7rem;
+}
+
+.container6 h2 {
+    margin-bottom: 3rem;
+}
+
+.container6-flex {
+    display: flex;
     
+}
+
+.container-faq {
+    width: 90%;
+}
+
+.faq {
+    padding-top: 3rem;
+}
+
+
+.container-faq div:first-child {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.container-faq div:last-child {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+.container6-arrow {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-arrow {
+    align-items: center;
+}
+
+.container6-arrow div {
+    width: 122px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+}
+
+.container6-arrow .faq-fix {
+    width: 122px;
+    height: 120px;
+}
+
+.container6-arrow div:first-child {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.container6-arrow div:last-child {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.container-faq p {
+    opacity: 0;
+}
+
+.faq:hover p {
+    opacity: 1;
+    cursor: pointer;
 }
